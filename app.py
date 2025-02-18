@@ -30,8 +30,8 @@ def handle_message(event):
     user_text = event.message.text.strip()
     if user_text == "台南影片":
         video_list = [
-            {"title": "台南旅遊 Day 1", "image": "C:\Users\cynth\OneDrive\桌面\line-bot-videos\photo\tainanday1.jpg", "url": "https://drive.google.com/drive/folders/1S5j0rMYHqjAwUVswIYu6338OIDhcyRfP?usp=drive_link"},
-            {"title": "台南旅遊 Day 2", "image": "C:\Users\cynth\OneDrive\桌面\line-bot-videos\photo\tainanday2.jpg", "url": "https://drive.google.com/drive/folders/1VgHmYa7ItKtIVMMg82no-nf62fpX-RFL?usp=drive_link"}
+            {"title": "台南旅遊 Day 1", "image": "https://drive.google.com/file/d/1NZ2ruevawMld37mRoY_8eetSRky0jgE_/view?usp=drive_link", "url": "https://drive.google.com/drive/folders/1S5j0rMYHqjAwUVswIYu6338OIDhcyRfP?usp=drive_link"},
+            {"title": "台南旅遊 Day 2", "image": "https://drive.google.com/file/d/1Lhq4RjHQx4PJUF5q-3wySyuUhWCJPIvc/view?usp=drive_link", "url": "https://drive.google.com/drive/folders/1VgHmYa7ItKtIVMMg82no-nf62fpX-RFL?usp=drive_link"}
         ]
 
         flex_contents = []
